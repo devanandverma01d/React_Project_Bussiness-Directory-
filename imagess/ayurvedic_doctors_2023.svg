@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #dce1eb;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke: #333a60;
+        stroke-width: 1.5px;
+      }
+
+      .cls-4 {
+        fill: #cdd2e1;
+      }
+
+      .cls-6 {
+        fill: #4bcdd7;
+      }
+
+      .cls-7 {
+        fill: #00b8c1;
+      }
+    </style>
+  </defs>
+  <g id="i_finddoctors" transform="translate(-173 -285)">
+    <path id="Rectangle_27" data-name="Rectangle 27" class="cls-1" d="M0,0H50V50H0Z" transform="translate(173 285)"/>
+    <g id="Hotels" transform="translate(71)">
+      <path id="Rectangle_6234" class="cls-2" d="M0,0H50V50H0Z" transform="translate(102 285)"/>
+      <g id="Group_13184" transform="translate(102 285)">
+        <g id="daily-needs-icn">
+          <path id="Rectangle_91" class="cls-2" d="M0,0H50V50H0Z"/>
+        </g>
+        <path id="Rectangle_27-2" data-name="Rectangle_27" class="cls-2" d="M0,0H50V50H0Z"/>
+      </g>
+      <g id="ayurvedic" transform="translate(-20.55 189.502)">
+        <g id="Group_15153" data-name="Group 15153" transform="translate(146.396 102.695)">
+          <path id="Path_14527" data-name="Path 14527" class="cls-3" d="M254.285,137.032l-6.573-6.573,12.966-11.541a3.646,3.646,0,0,1,5,.145h0a3.647,3.647,0,0,1,.145,5Z" transform="translate(-247.712 -117.994)"/>
+        </g>
+        <g id="Group_15154" data-name="Group 15154" transform="translate(149.523 103.891)">
+          <path id="Path_14528" data-name="Path 14528" class="cls-4" d="M289.63,126.722h0l-.017-.017L274.8,141.522l3.334,3.334,11.647-13.085A3.68,3.68,0,0,0,289.63,126.722Z" transform="translate(-274.795 -126.705)"/>
+        </g>
+        <g id="Group_15155" data-name="Group 15155" transform="translate(133.187 114.555)">
+          <path id="Path_14529" data-name="Path 14529" class="cls-5" d="M157.628,229.288H137.082l-3.895-18.5h28.336Z" transform="translate(-133.187 -210.787)"/>
+        </g>
+        <g id="Group_15157" data-name="Group 15157" transform="translate(135.134 133.056)">
+          <path id="Path_14531" data-name="Path 14531" class="cls-6" d="M152.016,371.162h20.546l1.948,5.94H150.068Z" transform="translate(-150.068 -371.162)"/>
+        </g>
+        <g id="Group_15158" data-name="Group 15158" transform="translate(147.344 133.056)">
+          <path id="Path_14532" data-name="Path 14532" class="cls-7" d="M266.189,371.162H255.905v5.94h12.231Z" transform="translate(-255.905 -371.162)"/>
+        </g>
+        <g id="Group_15159" data-name="Group 15159" transform="translate(134.778 101.965)">
+          <path id="Path_14533" data-name="Path 14533" class="cls-6" d="M166.925,111.925h-3.789A6.136,6.136,0,0,1,157,105.789V102h3.789a6.136,6.136,0,0,1,6.136,6.136Z" transform="translate(-157 -102)"/>
+        </g>
+        <g id="Group_15160" data-name="Group 15160" transform="translate(135.975 102.005)">
+          <path id="Path_14534" data-name="Path 14534" class="cls-7" d="M166.084,107.42a5.42,5.42,0,0,0-5.42-5.42h-3.306l8.726,8.726Z" transform="translate(-157.358 -102)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

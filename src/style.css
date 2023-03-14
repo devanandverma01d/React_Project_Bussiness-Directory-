@@ -1,0 +1,35 @@
+header{
+    height: 100px;
+    border: 2px dashed red;
+    background-color: aqua;
+
+}
+main{
+    height: 1000px;
+    border: 2px dashed green;
+    
+}
+footer{
+    height: 300px;
+    border: 2px dashed blue;
+    background-color: #333333;
+   
+}
+.login_form{
+    background-color: lightblue;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+.log_img{
+    height: 30px;
+}
+.navigation_bar{
+    text-align:right;
+}
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
