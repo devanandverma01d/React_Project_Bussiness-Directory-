@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React_Project_Bussiness-Directory-/static/css/main.60d21564.css",
+    "main.js": "/React_Project_Bussiness-Directory-/static/js/main.fc5334a1.js",
+    "index.html": "/React_Project_Bussiness-Directory-/index.html",
+    "main.60d21564.css.map": "/React_Project_Bussiness-Directory-/static/css/main.60d21564.css.map",
+    "main.fc5334a1.js.map": "/React_Project_Bussiness-Directory-/static/js/main.fc5334a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60d21564.css",
+    "static/js/main.fc5334a1.js"
+  ]
+}
