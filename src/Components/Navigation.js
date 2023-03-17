@@ -3,6 +3,13 @@ import { Button, Container, Form, Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 function Navigation() {
+  //1. Hooks area
+  //2. Function definition area
+  let myLogout=()=>{
+    window.localStorage.removeItem('jwt_token');
+    window.location.href='/login';
+  }
+  //3. return statement
   return (
     <>
       <Navbar bg="light" expand="sm" className='h-100'>
@@ -26,8 +33,19 @@ function Navigation() {
           >
             <Link to="/"><button className="btn btn-primary me-3">Home</button></Link>
             <Link to="/detailed"><button className="btn btn-primary me-3">Detailed</button></Link>
-            <Link to="/login"><button className="btn btn-primary me-3">Login</button></Link>
-            <Link to="/register"><button className="btn btn-primary me-3">Register</button></Link>
+            {
+              window.localStorage.getItem('jwt_token')===null &&
+              <>
+                <Link to="/login"><button className="btn btn-primary me-3">Login</button></Link>
+                <Link to="/register"><button className="btn btn-primary me-3">Register</button></Link>
+              </>
+            }
+            {
+              window.localStorage.getItem('jwt_token')!==null &&
+              <>
+                <Link onClick={myLogout}><button className="btn btn-danger me-2">Logout</button></Link>
+              </>
+            }
           </Nav>
           <Form className="d-flex">
             <Form.Control

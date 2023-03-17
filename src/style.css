@@ -1,7 +1,6 @@
 header{
     height: 100px;
     border: 2px dashed red;
-    background-color: aqua;
 
 }
 main{
@@ -12,7 +11,7 @@ main{
 footer{
     height: 300px;
     border: 2px dashed blue;
-    background-color: #333333;
+    background-color: gray
    
 }
 .login_form{
@@ -21,6 +20,7 @@ footer{
     align-items: center;
     margin: auto;
     padding: 20px;
+    border-radius: 20px;
 }
 .log_img{
     height: 30px;
@@ -34,7 +34,8 @@ footer{
     padding-top: 20px;
 }
 .list_items{
-    border: 1px dashed black;
+    border: 1px solid black;
+    border-radius: 15px;
     margin: 15px;
     padding: 10px;
 }
