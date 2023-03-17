@@ -3,7 +3,7 @@ import React from 'react'
 function Login() {
   return (
     <>
-      <main><h1>---Login_form---</h1>
+      <main><h1 className='text-center mt-2 mb-2'>---Login_form---</h1>
         <div className='login_form'>
             <form>
                 <div className="mb-3">

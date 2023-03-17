@@ -24,7 +24,7 @@ function Home() {
         <ul className='nav'>
         {
           items.map((cv,idx)=>{
-            return <li key={idx} className='me-5'>
+            return <li key={idx} className='list_items'>
               <a href='#'>
                 <img src={'http://localhost:1337'+cv.attributes.logo.data[0].attributes.url}/><br/>
                 {cv.attributes.text}
