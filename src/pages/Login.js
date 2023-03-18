@@ -25,7 +25,7 @@ function Login() {
     .then((data)=>{
       console.log(data)
       if(data.data!==null){
-        swal("Yes!", "Login Successfully", "success");
+        //swal("Yes!", "Login Successfully", "success");
         window.localStorage.setItem("jwt_token",data.jwt)
         window.location.href="/business_register"
       }else{

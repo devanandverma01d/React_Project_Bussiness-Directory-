@@ -12,7 +12,7 @@ function Navigation() {
   //3. return statement
   return (
     <>
-      <Navbar bg="light" expand="sm" className='h-100'>
+      <Navbar  expand="sm" className='h-100'>
       <Container fluid>
       <Navbar.Brand href="#home">
             <img

@@ -33,9 +33,26 @@ footer{
     justify-content: space-between;
     padding-top: 20px;
 }
+
 .list_items{
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    margin-left: 15px;
     border-radius: 15px;
-    margin: 15px;
-    padding: 10px;
+}
+.my_image{
+    height: 100px;
+    padding: 20px;
+}
+.ima-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding-top: 15px;
 }
