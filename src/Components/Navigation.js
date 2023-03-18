@@ -14,16 +14,16 @@ function Navigation() {
     <>
       <Navbar  expand="sm" className='h-100'>
       <Container fluid>
-      <Navbar.Brand href="#home">
-            <img
-              src="https://akam.cdn.jdmagicbox.com/images/icontent/jdrwd/jdlogosvg.svg"
-              width="100"
-              margin-left="250px"
-              height="50"
-              className="d-inline-block align-top me-5"
-              alt="React Bootstrap logo"
-            />
-          </Navbar.Brand>
+        <Navbar.Brand href="#home">
+              <img
+                src="https://akam.cdn.jdmagicbox.com/images/icontent/jdrwd/jdlogosvg.svg"
+                width="100"
+                margin-left="250px"
+                height="50"
+                className="d-inline-block align-top me-5"
+                alt="React Bootstrap logo"
+              />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

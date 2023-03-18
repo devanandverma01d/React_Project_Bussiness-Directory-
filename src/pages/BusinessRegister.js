@@ -1,5 +1,6 @@
 //1.Import area
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import swal from 'sweetalert';
 //2. functio definition area
 export default function BusinessRegister() {
   //1. Hooks area
@@ -48,6 +49,7 @@ export default function BusinessRegister() {
     .then(res=>res.json())
     .then(data=>{
       console.log('business post--->',data)
+      swal("Yes!", "Business Created Successfully", "success");
     })
     .catch(err=>err)
   }
